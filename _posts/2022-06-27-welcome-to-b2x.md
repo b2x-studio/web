@@ -6,7 +6,7 @@ date:   2022-06-01
 
 ## Welcome to B2X Studio
 
-Learn about B2X & why it is the single-most-requested 
+Learn about B2X: the identity construct everyone knows but is impossible to explain
 
 # Repositories
 
@@ -15,5 +15,6 @@ Learn about B2X & why it is the single-most-requested
 - [B2X Runtime API](https://github.com/jpda/b2c-approles)
 
 # Contacts
-- info@b2x.studio
-- twitter: @azureandchill
+- [info@b2x.studio](mailto:info@b2x.studio)
+- [twitter](https://twitter.com/@azureandchill)
+- [github](https://github.com/jpda)
