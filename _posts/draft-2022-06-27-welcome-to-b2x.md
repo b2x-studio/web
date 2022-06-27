@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "welcome to b2x"
+title:  "Do you know B2X?"
 date:   2022-06-01
 ---
 
