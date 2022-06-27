@@ -18,14 +18,14 @@ Today, two major platforms offer 'ecosystem' federation:
 - Google
 - Microsoft Azure AD (per-environment: Commercial, US Government, China, etc)
 
-Ecosystem federation as in a single federation used to authenticate all users within that ecosystem, e.g., a user who is a member of an organzation that uses Google Workspace or Microsoft Office 365 can use their existing authentication services with Google or Microsoft to authenticate. This model doesn't require anything extra of the user, their administrators or the developer of the target software.
+Ecosystem federation as in a single federation used to authenticate all users within that ecosystem, e.g., a user who is a member of an organzation that uses Google Workspace or Microsoft Office 365 can use their existing authentication services with Google or Microsoft to authenticate. This model doesn't require the user, administrator or developer to do anything specific for that user's realm - the user is simply authenticated with the appropriate identity provider.
 
-Contrast that with 'local' federations, where the federation for a realm is point-to-point, e.g., a user from `example.com` is authenticated by a federation service that only knows about that realm through a bespoke federation for `example.com.` Systems like ADFS, Okta, etc use this model. As a developer of cloud-delivered software, 
+Contrast that with 'local' federations, where the federation for a realm is point-to-point, e.g., a user from `example.com` is authenticated by a federation service that only knows about that realm through a bespoke federation for `example.com.` Systems like ADFS, Okta, etc use this model. 
 
-As more software is built and delivered by non-traditional software companies, a variety of people, identities & relationships are needed to meet requirements. 
+As more software is built & shipped by non-traditional software companies, the ecosystem model becomes even more important for fast, secure, zero-touch onboarding & administration.
 
 ## Demos
-- [B2X AuthZ with Home Realm Discovery](https://aka.ms/b2x/signin)
+- [B2X with home realm discovery & RBAC authorization](https://aka.ms/b2x/signin)
 
 ## Repositories
 - [B2X Administrative OpenAPI docs](https://api.admin.b2x.studio)
