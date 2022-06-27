@@ -1,7 +1,5 @@
 ---
-layout: post
-title: hello
-category: news
+layout: home
 ---
 
 ## Welcome to GitHub Pages
