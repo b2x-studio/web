@@ -5,6 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://b2x.studio" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: web # the GitHub repo name for your project
 github_username: b2x-studio
+permalink: /:title
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
@@ -17,3 +18,7 @@ theme_color: yellow
 
 # Build settings
 # markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
